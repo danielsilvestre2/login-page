@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+@media screen and (min-width: 768px) {
+  body {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(50deg, #003929, #5ba5a5);
+    background-repeat: no-repeat;
+  }
+  #menuic {
+    position: absolute;
+    top: 3.5%;
+    left: 92.5%;
+  }
+  main {
+    margin: 120px auto 120px auto;
+    height: 600px;
+    width: 70%;
+  }
+  .inpttxt {
+    width: 48%;
+  }
+  .logbtn {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+  #misspass {
+    margin: 0 30px 0 0;
+  }
+  #terms {
+    margin: 0;
+    font-size: 13px;
+    text-align: left;
+  }
+  #sheetsimg {
+    float: right;
+    width: 35vw;
+    height: 100vh;
+  }
+}
+@media screen and (min-width: 1024px) {
+  body {
+    background-image: linear-gradient(50deg,
+    #003929, #5ba5a5);
+    height: 100%;
+    width: 100vw;
+  }
+  main h1 {
+    margin: 10px 0 0 0;
+  }
+  main {
+    height: 600px;
+  }
+}

@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+  font-family: arial, helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+body, html {
+  background-color: #007354;
+}
+header {
+  background-color: #01261c70;
+  color: white;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+}
+#menuic {
+  position: absolute;
+  top: 3.5%;
+  left: 85%;
+  display: block;
+  font-size: 45px;
+}
+header button {
+  color: white;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 1px 5px 1px 5px;
+  margin: 0 0 0 250px;
+}
+main {
+  height: 590px;
+  width: 85%;
+  margin: 50px auto 50px auto;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px #00000061;
+  overflow: hidden;
+}
+#sheetsimg {
+  background: green url('images/sheets.jpg') center center/cover no-repeat scroll;
+  height: 100px;
+  width: 100%;
+}
+h1 {
+  padding: 40px 0 0 20px;
+  font: normal bolder 2.5em arial, helvetica, sans-serif;
+}
+h2, p {
+  margin: 20px 0 5px 20px;
+  padding: 5px;
+}
+form input {
+  margin: 30px 30px 0px 20px;
+}
+form {
+  padding: 30px 20px 20px 20px;
+}
+.inpttxt {
+  font: normal normal 16px arial, helvetica, sans-serif;
+  padding: 7px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin: 5px 0 20px 0;
+}
+#terms {
+  color: gray;
+  text-align: center;
+  font: normal normal 12px arial, helvetica, sans-serif;
+  margin: 0 20px 0 20px;
+}
+#terms a:hover {
+  text-decoration: underline;
+}
+#misspass {
+  text-decoration: underline;
+  float: right;
+}
+.logbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input[type=submit] {
+  border: 1px solid #3F5550;
+  background-color: #3F5550;
+  padding: 10px;
+  width: 100%;
+  border-radius: 15px;
+  margin: 30px 10px 30px 10px;
+  color: white;
+}
+input[type=submit]:hover {
+  background-color: lightgray;
+  border: 1px solid lightgray;
+  color: black;
+  transform: scale(0.90);
+  transition-duration: .2s;
+}
+footer {
+  font: normal normal 13px arial, helvetica, sans-serif;
+  text-align: center;
+  background-image: linear-gradient(to top, #01261c, transparent);
+  padding: 20px;
+  color: white;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+}
+footer a:hover {
+  font-weight: bold;
+  transition-duration: .2s;
+}
