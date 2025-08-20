@@ -61,7 +61,7 @@
   #sheetsimg {
     float: right;
     width: 35vw;
-    height: 100vh;
+    height: 1300px;
   }
 }
 @media screen and (min-width: 1024px) {
