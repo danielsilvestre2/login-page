@@ -17,7 +17,7 @@ body, html {
   background-color: #007354;
 }
 header {
-  background-color: #004e39ff;
+  background-color: #00000070;
   color: white;
   width: 100%;
   padding: 20px;
@@ -30,11 +30,12 @@ header {
   display: block;
   font-size: 45px;
 }
-#checkp {
+#checklog {
   position: absolute;
-  top: 31.3%;
-  left: 78%;
+  top: 35.7%;
+  left: 10%;
   font-size: 50px;
+  padding: 10px;
 }
 header button {
   color: white;
@@ -55,8 +56,8 @@ main {
   overflow: hidden;
 }
 #log-sucess h1 {
-  font: normal bolder 2em arial, helvetica, sans-serif;
-  margin: 0 20px 30px 0;
+  font: normal bolder 1.8em arial, helvetica, sans-serif;
+  margin: 0 20px 40px 0;
 }
 #log-sucess {
   height: 300px;
