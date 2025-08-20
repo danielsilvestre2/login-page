@@ -13,10 +13,11 @@ a {
   color: black;
 }
 body, html {
+  position: relative;
   background-color: #007354;
 }
 header {
-  background-color: #01261c70;
+  background-color: #004e39ff;
   color: white;
   width: 100%;
   padding: 20px;
@@ -29,6 +30,12 @@ header {
   display: block;
   font-size: 45px;
 }
+#checkp {
+  position: absolute;
+  top: 31.3%;
+  left: 78%;
+  font-size: 50px;
+}
 header button {
   color: white;
   background-color: transparent;
@@ -38,6 +45,7 @@ header button {
   margin: 0 0 0 250px;
 }
 main {
+  justify-content: justify;
   height: 590px;
   width: 85%;
   margin: 50px auto 50px auto;
@@ -46,10 +54,20 @@ main {
   box-shadow: 5px 5px 10px #00000061;
   overflow: hidden;
 }
+#log-sucess h1 {
+  font: normal bolder 2em arial, helvetica, sans-serif;
+  margin: 0 20px 30px 0;
+}
+#log-sucess {
+  height: 300px;
+}
 #sheetsimg {
-  background: green url('images/sheets.jpg') center center/cover no-repeat scroll;
+  background: green url('../images/sheets.jpg') center center/cover no-repeat scroll;
   height: 100px;
   width: 100%;
+}
+.txt-inform {
+  margin: 0 20px 0 20px;
 }
 h1 {
   padding: 40px 0 0 20px;
@@ -65,7 +83,7 @@ form input {
 form {
   padding: 30px 20px 20px 20px;
 }
-.inpttxt {
+.input-txt {
   font: normal normal 16px arial, helvetica, sans-serif;
   padding: 7px;
   width: 100%;
@@ -110,7 +128,7 @@ input[type=submit]:hover {
 footer {
   font: normal normal 13px arial, helvetica, sans-serif;
   text-align: center;
-  background-image: linear-gradient(to top, #01261c, transparent);
+  background-image: linear-gradient(to top, #004e39ff, transparent);
   padding: 20px;
   color: white;
 }
