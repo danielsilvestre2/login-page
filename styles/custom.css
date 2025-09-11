@@ -88,9 +88,16 @@ form {
   font: normal normal 16px arial, helvetica, sans-serif;
   padding: 7px;
   width: 100%;
-  border-radius: 5px;
-  border: 1px solid gray;
+  border: none;
+  border-bottom: 1.5px solid gray;
   margin: 5px 0 20px 0;
+}
+.input-txt:focus-within {
+  outline: none;
+  border: 2px solid #007a64;
+  transition-duration: .1s;
+  border-radius: 5px;
+  color: black;
 }
 #terms {
   color: gray;
